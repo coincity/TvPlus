@@ -1,0 +1,326 @@
+[
+  {
+    "name": "🗺️ DOCUMENTALES",
+    "samples": [
+      {
+        "name": "Odisea",
+        "uri": "https://requestrouter3.cdn.agiletv.net/__cl/cg:lv-p1/__c/ODISEA_SPA_HD/__op/dash-wv/__f/manifest.mpd",
+        "kid": "Woxjyfc8Y3PPJiwcKRJ5bw",
+        "key": "faGEjSAzdDE5wp6mHLztEQ",
+        "drm_scheme": "clearkey",
+        "extension": "mpd"
+      },
+      {
+        "name": "Historia",
+        "uri": "https://requestrouter3.cdn.agiletv.net/__cl/cg:lv-r2/__c/HISTORIA_HD/__op/dash-wv/__f/manifest.mpd",
+        "kid": "+7UNkO2Mp/Jseww8WQyn6g",
+        "key": "8ztYu0FHUsU1Krp16EdqIA",
+        "drm_scheme": "clearkey",
+        "extension": "mpd"
+      },
+      {
+        "name": "National Geographic",
+        "uri": "https://requestrouter.cdn.agiletv.net/__cl/cg:lv-p1/__c/NGEO_HD/__op/dash-wv/__f/manifest.mpd",
+        "kid": "4jaZwZbGi383YqcnP4gNgw",
+        "key": "DOZ0cYQG2MtqTIoXHoZz6w",
+        "drm_scheme": "clearkey",
+        "extension": "mpd"
+      },
+      {
+        "name": "National Geographic Wild",
+        "uri": "https://requestrouter.cdn.agiletv.net/__cl/cg:lv-p1/__c/NGEO_WILD_HD/__op/dash-wv/__f/manifest.mpd",
+        "kid": "DV947LzwRIIAMslmreRLkw",
+        "key": "HH9QGDre6LL5p2URlwqWDw",
+        "drm_scheme": "clearkey",
+        "extension": "mpd"
+      },
+      {
+        "name": "Discovery",
+        "uri": "https://requestrouter.cdn.agiletv.net/__cl/cg:lv-p1/__c/Discovery_HD/__op/dash-wv/__f/manifest.mpd",
+        "kid": "2u4ojAMrvKTdeouJ9bJIAw",
+        "key": "/IFab9KEoz9phdifwNfx+g",
+        "drm_scheme": "clearkey",
+        "extension": "mpd"
+      }
+    ]
+  },
+
+
+  {
+    "name": "🎬 CINE Y SERIES",
+    "samples": [
+      {
+        "name": "AMC",
+        "uri": "https://requestrouter3.cdn.agiletv.net/__cl/cg:lv-r3/__c/AMC_HD/__op/dash-wv/__f/manifest.mpd",
+        "kid": "D+t8RwhECNZsa1znFnJ/Mw",
+        "key": "ha+ydAy3QtlvDCsyq1Czcg",
+        "drm_scheme": "clearkey",
+        "extension": "mpd"
+      },
+      {
+        "name": "AMC (-2h)",
+        "uri": "https://requestrouter3.cdn.agiletv.net/__cl/cg:lv-v3/__c/AMC_HD/__op/delay-dash-wv/__f/manifest.mpd",
+        "kid": "D+t8RwhECNZsa1znFnJ/Mw",
+        "key": "ha+ydAy3QtlvDCsyq1Czcg",
+        "drm_scheme": "clearkey",
+        "extension": "mpd"
+      },
+      {
+        "name": "TCM",
+        "uri": "https://requestrouter3.cdn.agiletv.net/__cl/cg:lv-r2/__c/TCM_HD_A/__op/dash-wv/__f/manifest.mpd",
+        "kid": "BLvb1qdPKQZGpQBXcz+5kg",
+        "key": "kIVHBRVP1bM7Qwu+GqKnjw",
+        "drm_scheme": "clearkey",
+        "extension": "mpd"
+      },
+      {
+        "name": "TCM (-2h)",
+        "uri": "https://requestrouter3.cdn.agiletv.net/__cl/cg:lv-v4/__c/TCM_HD_A/__op/delay-dash-wv/__f/manifest.mpd",
+        "kid": "BLvb1qdPKQZGpQBXcz+5kg",
+        "key": "kIVHBRVP1bM7Qwu+GqKnjw",
+        "drm_scheme": "clearkey",
+        "extension": "mpd"
+      },
+      {
+        "name": "Warner TV",
+        "uri": "https://requestrouter3.cdn.agiletv.net/__cl/cg:lv-r3/__c/TNT_HD_B/__op/dash-wv/__f/manifest.mpd",
+        "kid": "H1zbpgIj7Ssd+0e23fSaYw",
+        "key": "Qcz3ctmUsjGcvL4Kfb/lJg",
+        "drm_scheme": "clearkey",
+        "extension": "mpd"
+      },
+      {
+        "name": "Warner TV (-2h)",
+        "uri": "https://requestrouter3.cdn.agiletv.net/__cl/cg:lv-v3/__c/TNT_HD_B/__op/delay-dash-wv/__f/manifest.mpd",
+        "kid": "H1zbpgIj7Ssd+0e23fSaYw",
+        "key": "Qcz3ctmUsjGcvL4Kfb/lJg",
+        "drm_scheme": "clearkey",
+        "extension": "mpd"
+      },
+      {
+        "name": "Hollywood",
+        "uri": "https://requestrouter3.cdn.agiletv.net/__cl/cg:lv-r3/__c/HWD_HD/__op/dash-wv/__f/manifest.mpd",
+        "kid": "tF1UIwg8JB47RV3rCf8R5Q",
+        "key": "HMDBENgo1jjH5T1gVSBa5g",
+        "drm_scheme": "clearkey",
+        "extension": "mpd"
+      },
+      {
+        "name": "Hollywood (-2h)",
+        "uri": "https://requestrouter3.cdn.agiletv.net/__cl/cg:lv-v3/__c/HWD_HD/__op/delay-dash-wv/__f/manifest.mpd",
+        "kid": "tF1UIwg8JB47RV3rCf8R5Q",
+        "key": "HMDBENgo1jjH5T1gVSBa5g",
+        "drm_scheme": "clearkey",
+        "extension": "mpd"
+      },
+      {
+        "name": "Paramount Network",
+        "uri": "https://requestrouter3.cdn.agiletv.net/__cl/cg:lv-r3/__c/PARAMOUNT_HD_B/__op/dash-wv/__f/manifest.mpd",
+        "kid": "4QSJGvZ/KxlFddPMlUsjdQ",
+        "key": "3/VVbnHmf1QNHnAHy2Am8g",
+        "drm_scheme": "clearkey",
+        "extension": "mpd"
+      },
+      {
+        "name": "Paramount Network (-2h)",
+        "uri": "https://requestrouter3.cdn.agiletv.net/__cl/cg:lv-v3/__c/PARAMOUNT_HD_B/__op/delay-dash-wv/__f/manifest.mpd",
+        "kid": "4QSJGvZ/KxlFddPMlUsjdQ",
+        "key": "3/VVbnHmf1QNHnAHy2Am8g",
+        "drm_scheme": "clearkey",
+        "extension": "mpd"
+      },
+      {
+        "name": "ST☆R Channel",
+        "uri": "https://requestrouter3.cdn.agiletv.net/__cl/cg:lv-p1/__c/FOX_HD/__op/dash-wv/__f/manifest.mpd",
+        "kid": "E/9qHMVw3FP3zkLnDbGtgg",
+        "key": "jZcoGwpZ5mzFb5VM9zhYnA",
+        "drm_scheme": "clearkey",
+        "extension": "mpd"
+      },
+      {
+        "name": "ST☆R Channel (-2h)",
+        "uri": "https://requestrouter3.cdn.agiletv.net/__cl/cg:lv-v2/__c/FOX_HD/__op/delay-dash-wv/__f/manifest.mpd",
+        "kid": "E/9qHMVw3FP3zkLnDbGtgg",
+        "key": "jZcoGwpZ5mzFb5VM9zhYnA",
+        "drm_scheme": "clearkey",
+        "extension": "mpd"
+      },
+      {
+        "name": "COSMO",
+        "uri": "https://requestrouter3.cdn.agiletv.net/__cl/cg:lv-p1/__c/Cosmopolitan_HD/__op/dash-wv/__f/manifest.mpd",
+        "kid": "XqKQG+pPS1r+pKPfla9g9w",
+        "key": "vRUhQGqqDtiUDrxXsCDfHg",
+        "drm_scheme": "clearkey",
+        "extension": "mpd"
+      },
+      {
+        "name": "COSMO (-2h)",
+        "uri": "https://requestrouter3.cdn.agiletv.net/__cl/cg:lv-v2/__c/Cosmopolitan_HD/__op/delay-dash-wv/__f/manifest.mpd",
+        "kid": "XqKQG+pPS1r+pKPfla9g9w",
+        "key": "vRUhQGqqDtiUDrxXsCDfHg",
+        "drm_scheme": "clearkey",
+        "extension": "mpd"
+      },
+      {
+        "name": "SOMOS",
+        "uri": "https://requestrouter3.cdn.agiletv.net/__cl/cg:lv-p1/__c/SOMOS_SD/__op/dash-wv/__f/manifest.mpd",
+        "kid": "2ROAifE3BrDzaEbLyhkIRw",
+        "key": "B6hBvGdY2wIrS0v4UruSxA",
+        "drm_scheme": "clearkey",
+        "extension": "mpd"
+      },
+      {
+        "name": "SOMOS (-2h)",
+        "uri": "https://requestrouter3.cdn.agiletv.net/__cl/cg:lv-v2/__c/SOMOS_SD/__op/delay-dash-wv/__f/manifest.mpd",
+        "kid": "2ROAifE3BrDzaEbLyhkIRw",
+        "key": "B6hBvGdY2wIrS0v4UruSxA",
+        "drm_scheme": "clearkey",
+        "extension": "mpd"
+      },
+      {
+        "name": "SUNDANCE TV",
+        "uri": "https://requestrouter3.cdn.agiletv.net/__cl/cg:lv-p1/__c/SUNDANCE_HD/__op/dash-wv/__f/manifest.mpd",
+        "kid": "afhswOQCteEc5PzgR0AXOg",
+        "key": "ZveDqCXA/oe/JexbVKGBgg",
+        "drm_scheme": "clearkey",
+        "extension": "mpd"
+      },
+      {
+        "name": "SUNDANCE TV (-2h)",
+        "uri": "https://requestrouter3.cdn.agiletv.net/__cl/cg:lv-v2/__c/SUNDANCE_HD/__op/delay-dash-wv/__f/manifest.mpd",
+        "kid": "afhswOQCteEc5PzgR0AXOg",
+        "key": "ZveDqCXA/oe/JexbVKGBgg",
+        "drm_scheme": "clearkey",
+        "extension": "mpd"
+      },
+      {
+        "name": "XTRM",
+        "uri": "https://requestrouter3.cdn.agiletv.net/__cl/cg:lv-r3/__c/XTRM_HD/__op/dash-wv/__f/manifest.mpd",
+        "kid": "qDXKpZuQg38IhyrUD7btAw",
+        "key": "wnUTdOz6U76c27UqGP24dw",
+        "drm_scheme": "clearkey",
+        "extension": "mpd"
+      },
+      {
+        "name": "XTRM (-2h)",
+        "uri": "https://requestrouter3.cdn.agiletv.net/__cl/cg:lv-v3/__c/XTRM_HD/__op/delay-dash-wv/__f/manifest.mpd",
+        "kid": "qDXKpZuQg38IhyrUD7btAw",
+        "key": "wnUTdOz6U76c27UqGP24dw",
+        "drm_scheme": "clearkey",
+        "extension": "mpd"
+      },
+      {
+        "name": "Atreseries",
+        "uri": "https://requestrouter3.cdn.agiletv.net/__cl/cg:lv-r1/__c/Atreseries_HD/__op/dash-wv/__f/manifest.mpd",
+        "kid": "OnxQTXcLpNzj+xVJCvBiLA",
+        "key": "yiRdRloK/op54qC5gMlsBg",
+        "drm_scheme": "clearkey",
+        "extension": "mpd"
+      },
+      {
+        "name": "Atreseries (-2h)",
+        "uri": "https://requestrouter3.cdn.agiletv.net/__cl/cg:lv-v1/__c/Atreseries_HD/__op/delay-dash-wv/__f/manifest.mpd",
+        "kid": "OnxQTXcLpNzj+xVJCvBiLA",
+        "key": "yiRdRloK/op54qC5gMlsBg",
+        "drm_scheme": "clearkey",
+        "extension": "mpd"
+      },
+      {
+        "name": "BOM Cine",
+        "uri": "https://requestrouter3.cdn.agiletv.net/__cl/cg:lv-p1/__c/BomCine_HD/__op/dash-wv/__f/manifest.mpd",
+        "kid": "8CFTPxgOHqyZg9uF5Nmb2Q",
+        "key": "yNjnsymLH5ONakmKyqk2XA",
+        "drm_scheme": "clearkey",
+        "extension": "mpd"
+      },
+      {
+        "name": "BOM Cine (-2h)",
+        "uri": "https://requestrouter3.cdn.agiletv.net/__cl/cg:lv-v2/__c/BomCine_HD/__op/delay-dash-wv/__f/manifest.mpd",
+        "kid": "8CFTPxgOHqyZg9uF5Nmb2Q",
+        "key": "yNjnsymLH5ONakmKyqk2XA",
+        "drm_scheme": "clearkey",
+        "extension": "mpd"
+      },
+      {
+        "name": "Cine Feel Good Verdi TV",
+        "uri": "https://requestrouter3.cdn.agiletv.net/__cl/cg:lv-r2/__c/FeelGood_HD/__op/dash-wv/__f/manifest.mpd",
+        "kid": "cgbbYsJ24cOfUL0lvCw1sw",
+        "key": "T1QRPsOblWbfA0bT1TdWRA",
+        "drm_scheme": "clearkey",
+        "extension": "mpd"
+      },
+      {
+        "name": "Cine Feel Good Verdi TV (-2h)",
+        "uri": "https://requestrouter3.cdn.agiletv.net/__cl/cg:lv-v4/__c/FeelGood_HD/__op/delay-dash-wv/__f/manifest.mpd",
+        "kid": "cgbbYsJ24cOfUL0lvCw1sw",
+        "key": "T1QRPsOblWbfA0bT1TdWRA",
+        "drm_scheme": "clearkey",
+        "extension": "mpd"
+      },
+      {
+        "name": "Cine Verdi TV",
+        "uri": "https://requestrouter3.cdn.agiletv.net/__cl/cg:lv-r2/__c/CINE_VERDI_HD/__op/dash-wv/__f/manifest.mpd",
+        "kid": "fctZXKBOrk1n/FddYTrOWQ",
+        "key": "zuFCH6qQuEbJF6iGWoJHJQ",
+        "drm_scheme": "clearkey",
+        "extension": "mpd"
+      },
+      {
+        "name": "Cine Verdi TV (-2h)",
+        "uri": "https://requestrouter3.cdn.agiletv.net/__cl/cg:lv-v4/__c/CINE_VERDI_HD/__op/delay-dash-wv/__f/manifest.mpd",
+        "kid": "fctZXKBOrk1n/FddYTrOWQ",
+        "key": "zuFCH6qQuEbJF6iGWoJHJQ",
+        "drm_scheme": "clearkey",
+        "extension": "mpd"
+      },
+      {
+        "name": "CINES VERDI TV",
+        "uri": "https://spa-ha-p005.cdn.masmediatv.es/SVoriginOperatorEdge/smil:152_HD.smil/manifest.mpd",
+        "kid": "",
+        "key": "",
+        "drm_scheme": "clearkey",
+        "extension": "mpd"
+      },
+      {
+        "name": "CINE FEEL GOOD",
+        "uri": "https://spa-ha-p005.cdn.masmediatv.es/SVoriginOperatorEdge/smil:151_HD.smil/manifest.mpd",
+        "kid": "",
+        "key": "",
+        "drm_scheme": "clearkey",
+        "extension": "mpd"
+      },
+      {
+        "name": "SONY CINE",
+        "uri": "https://a-cdn.klowdtv.com:443/803B48A/a-klowdtv.com/live1/cine_720p/playlist.m3u8",
+        "key": "",
+        "kid": "",
+        "drm_scheme": "clearkey",
+        "extension": "m3u8"
+      },
+      {
+        "name": "SONY CINEMA",
+        "uri": "https://spt-sonyonecomedias-mx.xiaomi.wurl.tv/playlist.m3u8",
+        "key": "",
+        "kid": "",
+        "drm_scheme": "clearkey",
+        "extension": "m3u8"
+      },
+      {
+        "name": "CINE FRIKI",
+        "uri": "https://d2jqgm8hyia1n3.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-o8hl8d0bx6aah/index.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.consent=%7BTC_STRING%7D&ads.ssai=SSSLIVE",
+        "kid": "",
+        "key": "",
+        "drm_scheme": "clearkey",
+        "extension": "m3u8"
+      },
+      {
+        "name": "FILM&CO",
+        "uri": "https://daiconnect.com/live/hls/tvup/tvfy-filmco/.m3u8",
+        "kid": "",
+        "key": "",
+        "drm_scheme": "clearkey",
+        "extension": "m3u8"
+      }
+    ]
+  }
+]
