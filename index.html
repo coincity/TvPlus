@@ -5,14 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>TVPlus+</title>
     
-    <!-- PWA Etiquetas -->
-    <meta name="theme-color" content="#E50914">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="TVPlus+">
-    <link rel="apple-touch-icon" href="logos/icon-192.png">
-    <link id="pwa-manifest" rel="manifest" href="">
-
+    <link rel="icon" href="logos/icon-192.png">    
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
     <script src="https://cdn.jsdelivr.net/npm/shaka-player@4.7.11/dist/shaka-player.compiled.js"></script>
     <style>
@@ -378,35 +371,6 @@
         ::-webkit-scrollbar-thumb { background: #333; border-radius: 3px; }
         ::-webkit-scrollbar-thumb:hover { background: #555; }
 
-        /* ─── BOTÓN INSTALAR PWA ─── */
-        .floating-install-btn {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background: var(--accent);
-            color: #fff;
-            border: 1px solid rgba(255,255,255,0.2);
-            border-radius: 50px;
-            padding: 12px 20px;
-            font-size: 0.95rem;
-            font-weight: bold;
-            box-shadow: 0 6px 20px rgba(229,9,20,0.6);
-            cursor: pointer;
-            z-index: 9999;
-            display: none;
-            align-items: center;
-            gap: 8px;
-            transition: transform 0.2s, background 0.2s, box-shadow 0.2s;
-        }
-        .floating-install-btn:hover {
-            transform: translateY(-3px) scale(1.05);
-            background: #f0141f;
-            box-shadow: 0 8px 25px rgba(229,9,20,0.8);
-        }
-        .floating-install-btn:active {
-            transform: translateY(0) scale(0.98);
-        }
-
         /* ─── MODAL TRANSMITIR (CAST) ─── */
         #cast-modal-overlay {
             position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 10000;
@@ -535,11 +499,6 @@
         <div id="channel-grid"></div>
     </div>
 
-    <!-- BOTÓN INSTALAR FLOTANTE -->
-    <button id="install-pwa-btn" class="floating-install-btn" title="Instalar aplicación">
-        ⬇️ Instalar App
-    </button>
-
     <!-- MODAL TRANSMITIR -->
     <div id="cast-modal-overlay" style="display: none;" onclick="closeCastModal()">
         <div class="cast-modal" onclick="event.stopPropagation()">
@@ -577,53 +536,6 @@
         // === IDENTIFICADOR DE VERSIÓN ===
         const VERSION_APP = "1.0.9";
         console.log("TVPlus+ Versión: " + VERSION_APP);
-
-        // === CONFIGURACIÓN PWA DINÁMICA ===
-        const manifestJSON = {
-            "name": "TVPlus+ " + VERSION_APP,
-            "short_name": "TVPlus+",
-            "start_url": ".",
-            "display": "standalone",
-            "background_color": "#0a0a0a",
-            "theme_color": "#E50914",
-            "icons": [
-                { "src": "logos/icon-192.png", "sizes": "192x192", "type": "image/png" },
-                { "src": "logos/icon-512.png", "sizes": "512x512", "type": "image/png" }
-            ]
-        };
-        const manifestBlob = new Blob([JSON.stringify(manifestJSON)], {type: 'application/json'});
-        document.getElementById('pwa-manifest').href = URL.createObjectURL(manifestBlob);
-        
-        if ('serviceWorker' in navigator) {
-            const swCode = `self.addEventListener('fetch', function(e) {});`;
-            const swBlob = new Blob([swCode], {type: 'application/javascript'});
-            navigator.serviceWorker.register(URL.createObjectURL(swBlob)).catch(err => console.log('PWA Error:', err));
-        }
-
-        // === LÓGICA DEL BOTÓN FLOTANTE DE INSTALACIÓN ===
-        let deferredPrompt;
-        const installBtn = document.getElementById('install-pwa-btn');
-
-        window.addEventListener('beforeinstallprompt', (e) => {
-            e.preventDefault();
-            deferredPrompt = e;
-            installBtn.style.display = 'flex';
-        });
-
-        installBtn.addEventListener('click', async () => {
-            if (deferredPrompt) {
-                deferredPrompt.prompt();
-                const { outcome } = await deferredPrompt.userChoice;
-                deferredPrompt = null;
-                installBtn.style.display = 'none';
-            }
-        });
-
-        window.addEventListener('appinstalled', () => {
-            installBtn.style.display = 'none';
-            deferredPrompt = null;
-            console.log('TVPlus+ ha sido instalada');
-        });
 
         const REPO_SAGAS = [
             { group: "Animación", name: "Colección Disney",                    file: "Coleccion Disney.m3u" },
@@ -701,9 +613,6 @@
 
         function forceAppReload() {
             localStorage.removeItem('premium_unlocked');
-            if ('caches' in window) {
-                caches.keys().then(names => { names.forEach(name => caches.delete(name)); });
-            }
             const currentUrl = new URL(window.location.href);
             currentUrl.searchParams.set('nocache', Date.now());
             window.location.replace(currentUrl.toString());
